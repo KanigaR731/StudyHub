@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scrollbar-width: none;
+}
+
+/* navbar */
+/* #Main-Navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  box-shadow: 5px 0px 6px 0px gainsboro;
+  background-color: white;
+  color: black;
+  position: sticky;
+}
+.Ul-Tag-Navbar {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 50px;
+} */
+
+/* navbar button */
+/* .navbar-button1 {
+  height: 35px;
+  width: 70px;
+  color: rgb(17, 132, 199);
+  padding: 5px;
+  border-radius: 7px;
+  border: solid 2px rgb(17, 132, 199);
+  background-color: white;
+}
+.navbar-button2 {
+  height: 35px;
+  width: 70px;
+  padding: 5px;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 7px;
+  background-color: rgb(17, 132, 199);
+} */
+/* Signup Page Content */
+
+/* Sign up page Form */
+.signup-page-form {
+  height: 500px;
+  width: 600px;
+  border: 2px solid lightgray;
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+  position: relative;
+  top: 60px;
+  left: 380px;
+}
+body{
+  background-color: rgb(247, 247, 248);
+}
+.signupform > label {
+  text-align: left;
+}
+.signupform > input {
+  height: 40px;
+  width: 530px;
+  border: 2px solid lightgray;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.signupform > input:focus{
+  outline-color: rgb(17, 132, 199);
+}
+.signupform > button {
+  height: 40px;
+  width: 530px;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgb(17, 132, 199);
+}
+#signup-page-form-heading {
+  text-align: center;
+  line-height: 1.6;
+}
+#signup-foot-content {
+  text-align: center;
+  line-height: 1.6;
+}
+#signup-foot-content > a {
+  text-decoration: none;
+}
+/* footer section */
+/* #home-page-footer-section {
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  position: relative;
+  top: 120px;
+  bottom: 0px;
+  background-color: rgb(1, 1, 34);
+}
+#home-page-footer-section > p {
+  position: relative;
+  top: 15px;
+  color: white;
+}
+#icons {
+  color: white;
+  position: relative;
+  left: 1150px;
+  display: flex;
+  column-gap: 30px;
+} */

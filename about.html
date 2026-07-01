@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=., initial-scale=1.0" />
+    <title>StudyHub</title>
+    <link rel="stylesheet" href="about.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+<body>
+   <!-- Navbar Section -->
+    <div id="Main-Navbar">
+      <h2 style="color: rgb(17, 132, 199) ;">&#127760;StudyHub</h2>
+      <ul type="none" class="Ul-Tag-Navbar">
+       <a href="index.html"><li>Home</li></a>
+        <a href="courses.html"><li>Courses</li></a>
+        <!-- <a href="dashboard.html"><li>Dashboard</li></a> -->
+        <a href="about.html"><li>About</li></a>
+        <a href="contact.html"><li>Contact</li></a>
+      </ul>
+      <div id="Btn-Navbar">
+        <button class="navbar-button1">Login</button>
+        <button class="navbar-button2">Sign Up</button>
+      </div>
+    </div>
+
+    <div id="about-us-page">
+        <div class="about-us-content">
+          <h2>About Us</h2>
+          <br>
+          <p>Studyhub Is An Online Learning Platform That Empowers You To <br>
+          Learn New Skills And Advance Your Career Our Expert Instructions <br>
+        Create Practical And Easy-To-Follow Courses For Everyone.</p>
+        </div>
+        <!-- <img height="250px" width="300px" src="./image/about.png" alt="" style="position: relative; left: 700px;
+        bottom: 300px;"  > -->
+        <div id="about-us-page-container">
+          <div class="about-us-page-container1">
+              <h4>&#128640; Our Mission</h4>
+              <p>To Provide High-Quality Education <br>
+              That Helps Individuals Achieve <br>
+            Their Goals And Build A Better Future.</p>
+          </div>
+          <div class="about-us-page-container1">
+               <h4>&#128301; Our Vision</h4>
+               <p>To Be A Global Learning Platform <br>
+              That Transforms Lives Through <br>
+            Accessable Education.</p>
+          </div>
+          <div class="about-us-page-container1">
+                  <h4>&#128142; Our Values</h4>
+                  <p>We Value Quality,Integrity And <br>
+                     Innovation In Everything We Do.</p>
+          </div>
+        </div>
+
+    </div>
+
+
+<!-- footer section -->
+
+    <div id="home-page-footer-section">
+      <p>@ 2024 StudyHub As Rights Reserved.</p>
+      <div id="icons">
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+       <i class="fa-brands fa-linkedin"></i>
+      </div>
+    </div>
+
+    <script >
+      // navbar button login button
+document.querySelector(".navbar-button1").addEventListener("click",function(){
+    window.location.href="login.html"
+});
+
+//navbar button signup button
+// var signupbtn = document.getElementsByClassName("navbar-button2")
+// signupbtn.addEventListener("click",function(){
+//     window.location.href="signup.html"
+// });
+
+document.querySelector(".navbar-button2").addEventListener("click",function(){
+    window.location.href="signup.html"
+});
+    </script>
+</body>
+</html>

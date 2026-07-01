@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scrollbar-width: none;
+}
+
+/* navbar */
+#Main-Navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    box-shadow: 5px 0px 6px 0px gainsboro;
+    background-color:white;
+    color: black;
+    position: sticky;
+}
+.Ul-Tag-Navbar{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 120px;
+      position: relative;
+     top: 10px;
+}
+.Ul-Tag-Navbar>a{
+    color: black;
+    text-decoration: none;
+}
+.Ul-Tag-Navbar>a:hover{
+       cursor: pointer;
+       color: rgb(17, 132, 199) ;
+}
+
+/* navbar button */
+#Btn-Navbar{
+    display: flex;
+    column-gap: 20px;
+}
+.navbar-button1{
+    height: 35px;
+    width: 70px;
+    color: rgb(17, 132, 199);
+    padding: 5px;
+    border-radius: 7px;  
+    border: solid 2px rgb(17, 132, 199) ; 
+    background-color: white;
+    
+}
+.navbar-button2{
+     height: 35px;
+    width: 90px;
+    padding: 5px;
+    color: white;
+    outline: none;
+     border: none;
+    border-radius: 7px; 
+    background-color: rgb(17, 132, 199);
+}
+
+/* footer section */
+#home-page-footer-section{
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    position: relative;
+    top: 0px;
+    background-color: rgb(1, 1, 34);
+    /* display: fixed; */
+}
+#home-page-footer-section>p{
+    position: relative;
+    top: 15px;
+    color: white;
+}
+#icons{
+    color: white;
+    position: relative;
+    left: 1150px;
+    display: flex;
+    column-gap: 30px;
+}
+
+
+/* about-us-content */
+#about-us-page{
+    width: 100%;
+    height: 550px;
+    background-color:rgb(247, 247, 248) ;
+}
+.about-us-content{
+    position: relative;
+    top: 60px;
+    left: 50px;
+    word-spacing: 8px;
+    line-height: 1.5;
+}
+
+.about-us-page-container1{
+    height: 150px;
+    width: 320px;
+    padding: 30px;
+    background-color: white;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+    line-height: 1.5;
+}
+
+#about-us-page-container{
+    display: flex;
+    column-gap: 110px;
+    position: relative;
+    top: 150px;
+    left: 50px;
+}

@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scrollbar-width: none;
+}
+#course-details-page{
+  background-color: rgb(247, 247, 248);
+}
+
+/* navbar */
+#Main-Navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    box-shadow: 5px 0px 6px 0px gainsboro;
+    background-color:white;
+    color: black;
+    position: sticky;
+}
+.Ul-Tag-Navbar{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 120px;
+      position: relative;
+     top: 10px;
+}
+.Ul-Tag-Navbar>a{
+    color: black;
+    text-decoration: none;
+}
+.Ul-Tag-Navbar>a:hover{
+       cursor: pointer;
+       color: rgb(17, 132, 199) ;
+}
+
+/* navbar button */
+#Btn-Navbar{
+    display: flex;
+    column-gap: 20px;
+}
+.navbar-button1{
+    height: 35px;
+    width: 70px;
+    color: rgb(17, 132, 199);
+    padding: 5px;
+    border-radius: 7px;  
+    border: solid 2px rgb(17, 132, 199) ; 
+    background-color: white;
+    
+}
+.navbar-button2{
+     height: 35px;
+    width: 90px;
+    padding: 5px;
+    color: white;
+    outline: none;
+     border: none;
+    border-radius: 7px; 
+    background-color: rgb(17, 132, 199);
+}
+
+/* footer section */
+#home-page-footer-section{
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    position: relative;
+    top: 10px;
+    background-color: rgb(1, 1, 34);
+    /* display: fixed; */
+}
+#home-page-footer-section>p{
+    position: relative;
+    top: 15px;
+    color: white;
+}
+#icons{
+    color: white;
+    position: relative;
+left: 1150px;
+display: flex;
+column-gap: 30px;
+}
+
+/* course details page */
+.course-details-info>div{
+    display: flex;
+    column-gap: 15px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+/* course details */
+.course-details>img{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 100px;
+    left: 50px;
+    display: inline;
+
+}
+
+/* js course details */
+#js-course-details{
+    position: relative;
+    left: 400px;
+    bottom: 100px;
+}
+
+#js-course-details-title{
+    line-height: 2;
+}
+#js-course-details-title>h4>span{
+    color: gold;
+}
+
+#js-course-details-intro{
+    line-height: 1.5;
+}
+
+#js-course-details-info{
+       line-height: 2;
+}
+
+#js-course-details-btn{
+    display: flex;
+    column-gap: 20px;
+}
+.js-course-details-btn1{
+    width: 100px;
+    height: 30px;
+    color: white;
+    border: none;
+       border-radius: 5px;
+    background-color:rgb(17, 132, 199) ;
+}
+.js-course-details-btn2{
+    width: 150px;
+    height: 30px;
+    color:rgb(17, 132, 199) ;
+       border-radius: 5px;
+       background-color: white;
+    border: 2px solid rgb(17, 132, 199) ;
+}
+
+/* course-details-learning-page */
+#course-details-learning-page{
+    height: 200px;
+    width: 900px;
+    position: relative;
+    left: 50px;
+    top: 10px;
+    background-color: white;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    padding: 20px;
+    line-height: 2;
+}
+#course-details-learning-page1{
+    position: relative;
+    left: 350px;
+    bottom: 120px;
+    line-height: 2;
+}
+#course-details-learning-page2{
+    position: relative;
+    left: 600px;
+    bottom: 215px;
+    line-height: 2;
+}
+#course-details-learning-page>p>span{
+    color:rgb(17, 132, 199) ;
+}
+#course-details-learning-page1>p>span{
+    color:rgb(17, 132, 199) ;
+}
+#course-details-learning-page2>p>span{
+    color:rgb(17, 132, 199) ;
+}

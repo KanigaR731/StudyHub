@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=., initial-scale=1.0" />
+    <title>StudyHub</title>
+    <link rel="stylesheet" href="signup.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+   <!--  Navbar Section
+    <img src="../MAIN PROJECT/image/graduvation cap.jpeg" alt=""> 
+    <div id="Main-Navbar">
+      <h2 style="color: rgb(17, 132, 199)">StudyHub</h2>
+      <ul type="none" class="Ul-Tag-Navbar">
+        <li>Home</li>
+        <li>Courses</li>
+        <li>Dashboard</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+      <div id="Btn-Navbar">
+        <button class="navbar-button1">Login</button>
+        <button class="navbar-button2">Sign Up</button>
+      </div>
+    </div> -->
+
+    <!-- Signup Page Content --->
+
+    <!---- Sign up page Form  -->
+    <div class="signup-page-form">
+      <div id="signup-page-form-heading">
+        <h1>Create An Account</h1>
+        <p>Join Us Today! Create Your Account.</p>
+      </div>
+      <form class="signupform">
+        <br />
+        <br />
+        <label for="">Full Name</label>
+        <br />
+        <input required type="text" placeholder="Enter Your Full Name" />
+        <br />
+        <br />
+        <label for="">Email Address</label>
+        <br />
+        <input required type="email" placeholder="Enter Your Email" />
+        <br />
+        <br />
+        <label for="">Password</label>
+        <br />
+        <input required type="password" placeholder="Enter Your Password" />
+        <br />
+        <br />
+        <button style="color: white;" type="submit" class="signup">Sign Up</button>
+      </form>
+      <br />
+      <div id="signup-foot-content">
+        <p style="display: inline;">Already Have An Account?</p>
+        <a href="./login.html" >Login</a>
+      </div>
+    </div>
+<!-- 
+    footer section 
+
+    <div id="home-page-footer-section">
+      <p>@ 2024 StudyHub As Rights Reserved.</p>
+      <div id="icons">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+    </div> -->
+
+    <!-- script tag -->
+     <script>
+     document.querySelector(".signup").addEventListener("click", function(e){
+    e.preventDefault()
+   alert("Account Created Successfully! You Can Now Log In💖")
+   });
+     </script>
+  </body>
+</html>
